@@ -1,5 +1,6 @@
 FROM centos:latest
 LABEL author="devops@devops.com"
+# komentarz
 
 RUN cd /etc/yum.repos.d/
 RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
